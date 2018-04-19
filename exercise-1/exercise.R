@@ -26,7 +26,7 @@ extract <- content(request, "text")
 body <- fromJSON(extract)
 
 # How many (public) repositories does the organization have?
-body <- View(body)
+View(body)
 
 
 ##### New query ######
